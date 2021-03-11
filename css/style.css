@@ -483,13 +483,12 @@ a.w3_agile_vimeo:hover{
 /*-- //quicklinks --*/
 /*-- footer --*/
 .footer{
-    background: linear-gradient(
+	background: linear-gradient(
       135deg,
       rgba(0, 64, 77, 0.8) 0%,
       rgba(0, 0, 0, 0.7) 100%
     ),
-    url(../images/footer.JPG) no-repeat;
-	/* background: url(../images/footer.jpg) no-repeat 0px 0px; */
+    url(../images/footer.jpg) center no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -675,7 +674,7 @@ a.w3_agile_vimeo:hover{
    -moz-box-shadow: 0 0 1px #000;
    box-shadow: 0 0 1px #000;
 }
-.view a.info: hover {
+.view a.info:hover {
    -webkit-box-shadow: 0 0 5px #000;
    -moz-box-shadow: 0 0 5px #000;
    box-shadow: 0 0 5px #000;
